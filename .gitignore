@@ -1,0 +1,6 @@
+# 世界存档（太大，不提交）
+worlds/*.wld
+worlds/*.wld.bak
+
+# 保留目录结构
+!worlds/.gitkeep

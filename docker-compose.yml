@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  terraria:
+    build: .
+    container_name: terraria-server
+    ports:
+      - "7777:7777"
+    volumes:
+      - ./worlds:/root/.local/share/Terraria/Worlds
+      - ./config:/opt/1451/Linux/config
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
