@@ -7,7 +7,7 @@ services:
       - "7777:7777"
     volumes:
       - ./worlds:/root/.local/share/Terraria/Worlds
-      - ./config:/opt/1451/Linux/config
+      - ./config:/config
     stdin_open: true
     tty: true
     restart: unless-stopped

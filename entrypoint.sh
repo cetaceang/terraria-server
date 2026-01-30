@@ -1,2 +1,2 @@
 #!/bin/bash
-exec /opt/${VERSION}/Linux/TerrariaServer.bin.x86_64 -config /opt/${VERSION}/Linux/config/serverconfig.txt "$@"
+exec /opt/${VERSION}/Linux/TerrariaServer.bin.x86_64 -config /config/serverconfig.txt "$@"
